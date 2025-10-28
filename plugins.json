@@ -63,8 +63,22 @@
   "stars": 42,
   "homepage": "https://github.com/tomMoulard/htransformation",
   "docs": "https://github.com/tomMoulard/htransformation#readme"
-}  
+},
+{
+  "displayName": "Traefik Authentik Forward Plugin",
+  "type": "middleware",
+  "iconPath": "",
+  "import": "github.com/xabinapal/traefik-authentik-forward-plugin",
+  "summary": "A Traefik plugin to forward auth to Authentik.",
+  "author": "xabinapal",
+  "version": "v1.0.0",
+  "tested_with": "Traefik v2.x, v3.x",
+  "stars": 4,
+  "homepage": "https://github.com/xabinapal/traefik-authentik-forward-plugin",
+  "docs": "https://github.com/xabinapal/traefik-authentik-forward-plugin#readme"
+}    
 ]
+
 
 
 
