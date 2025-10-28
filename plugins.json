@@ -50,5 +50,26 @@
     "stars": 4,
     "homepage": "https://github.com/zekihan/traefik-real-ip",
     "docs": "https://github.com/zekihan/traefik-real-ip#readme"
-  }  
+  },
+{
+  "name": "rewriteheader",
+  "displayName": "Rewrite Header",
+  "type": "HTTP",
+  "import": "github.com/mrdrelar/traefik-plugin-rewriteheader",
+  "moduleName": "traefik-plugin-rewriteheader",
+  "summary": "A Traefik plugin to rewrite request headers.",
+  "configuration": {
+    "rewrites": [
+      {
+        "header": "X-Forwarded-For",
+        "value": "%{req.Header.Get \"Cf-Connecting-Ip\"}"
+      },
+      {
+        "header": "X-Real-Ip",
+        "value": "%{req.Header.Get \"Cf-Connecting-Ip\"}"
+      }
+    ]
+  }
+}  
+
 ]
