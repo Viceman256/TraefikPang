@@ -55,15 +55,15 @@
     "displayName": "rewriteheader",
     "type": "middleware",
     "iconPath": "",
-    "import": "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin",
+    "import": "github.com/mrdrelar/traefik-plugin-rewriteheader",
     "summary": "Rewrite header is a middleware plugin for Traefik which extracts data via regexp from the target header and creates a new with extracted content.",
     "author": "mrdrelar",
     "version": "v0.0.3",
     "tested_with": "Traefik v2.9+, v3.0+",
     "stars": 6,
-    "homepage": "https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin",
-    "docs": "https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin#readme"
+    "homepage": "https://github.com/mrdrelar/traefik-plugin-rewriteheader",
+    "docs": "https://github.com/mrdrelar/traefik-plugin-rewriteheader#readme"
   },
-
 ]
+
 
