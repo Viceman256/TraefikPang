@@ -51,17 +51,17 @@
     "homepage": "https://github.com/zekihan/traefik-real-ip",
     "docs": "https://github.com/zekihan/traefik-real-ip#readme"
   },
-  {
-    "displayName": "Rewrite Header",
-    "type": "middleware",
-    "iconPath": "",
-    "import": "github.com/mrdrelar/traefik-plugin-rewriteheader",
-    "summary": "Rewrites request headers using values from other headers.",
-    "author": "mrdrelar",
-    "version": "v1.0.0",
-    "tested_with": "Traefik v2.x, v3.x",
-    "stars": 23,
-    "homepage": "https://github.com/mrdrelar/traefik-plugin-rewriteheader",
-    "docs": "https://github.com/mrdrelar/traefik-plugin-rewriteheader#readme"
-  }
+{
+  "displayName": "Rewrite Headers (Regex)",
+  "type": "middleware",
+  "import": "github.com/bitrvmpd/traefik-plugin-rewrite-headers",
+  "summary": "Rewrites request headers using regex.",
+  "author": "bitrvmpd",
+  "version": "v1.1.0",
+  "tested_with": "Traefik v2.x, v3.x",
+  "stars": 24,
+  "homepage": "https://github.com/bitrvmpd/traefik-plugin-rewrite-headers",
+  "docs": "https://github.com/bitrvmpd/traefik-plugin-rewrite-headers#readme"
+}
 ]
+
