@@ -39,7 +39,7 @@
     "docs": "https://github.com/tomMoulard/fail2ban#readme"
   },
   {
-    "displayName": "real-ip",
+    "displayName": "Real IP",
     "type": "middleware",
     "iconPath": "",
     "import": "github.com/zekihan/traefik-real-ip",
@@ -52,19 +52,16 @@
     "docs": "https://github.com/zekihan/traefik-real-ip#readme"
   },
   {
-    "displayName": "rewriteheader",
+    "displayName": "Rewrite Header",
     "type": "middleware",
     "iconPath": "",
     "import": "github.com/mrdrelar/traefik-plugin-rewriteheader",
-    "summary": "Rewrite header is a middleware plugin for Traefik which extracts data via regexp from the target header and creates a new with extracted content.",
+    "summary": "Rewrites request headers using values from other headers.",
     "author": "mrdrelar",
-    "version": "v0.0.3",
-    "tested_with": "Traefik v2.9+, v3.0+",
-    "stars": 6,
+    "version": "v1.0.0",
+    "tested_with": "Traefik v2.x, v3.x",
+    "stars": 23,
     "homepage": "https://github.com/mrdrelar/traefik-plugin-rewriteheader",
     "docs": "https://github.com/mrdrelar/traefik-plugin-rewriteheader#readme"
   }
 ]
-
-
-
