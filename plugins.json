@@ -52,18 +52,6 @@
     "docs": "https://github.com/zekihan/traefik-real-ip#readme"
   },
 {
-  "displayName": "Rewrite Headers (Regex)",
-  "type": "middleware",
-  "import": "github.com/bitrvmpd/traefik-plugin-rewrite-headers",
-  "summary": "Rewrites request headers using regex.",
-  "author": "bitrvmpd",
-  "version": "v0.0.1",
-  "tested_with": "Traefik v2.x, v3.x",
-  "stars": 24,
-  "homepage": "https://github.com/bitrvmpd/traefik-plugin-rewrite-headers",
-  "docs": "https://github.com/bitrvmpd/traefik-plugin-rewrite-headers#readme"
-},
-{
   "displayName": "Header Transformation",
   "type": "middleware",
   "import": "github.com/tomMoulard/htransformation",
@@ -76,6 +64,7 @@
   "docs": "https://github.com/tomMoulard/htransformation#readme"
 }  
 ]
+
 
 
 
