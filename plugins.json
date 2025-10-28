@@ -54,6 +54,7 @@
 {
   "displayName": "Header Transformation",
   "type": "middleware",
+  "iconPath": "",
   "import": "github.com/tomMoulard/htransformation",
   "summary": "A Traefik plugin to add, set, or remove headers.",
   "author": "tomMoulard",
@@ -64,6 +65,7 @@
   "docs": "https://github.com/tomMoulard/htransformation#readme"
 }  
 ]
+
 
 
 
