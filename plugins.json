@@ -57,11 +57,12 @@
   "import": "github.com/bitrvmpd/traefik-plugin-rewrite-headers",
   "summary": "Rewrites request headers using regex.",
   "author": "bitrvmpd",
-  "version": "v1.1.0",
+  "version": "v0.0.1",
   "tested_with": "Traefik v2.x, v3.x",
   "stars": 24,
   "homepage": "https://github.com/bitrvmpd/traefik-plugin-rewrite-headers",
   "docs": "https://github.com/bitrvmpd/traefik-plugin-rewrite-headers#readme"
 }
 ]
+
 
