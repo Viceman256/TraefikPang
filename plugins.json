@@ -51,25 +51,19 @@
     "homepage": "https://github.com/zekihan/traefik-real-ip",
     "docs": "https://github.com/zekihan/traefik-real-ip#readme"
   },
-{
-  "name": "rewriteheader",
-  "displayName": "Rewrite Header",
-  "type": "HTTP",
-  "import": "github.com/mrdrelar/traefik-plugin-rewriteheader",
-  "moduleName": "traefik-plugin-rewriteheader",
-  "summary": "A Traefik plugin to rewrite request headers.",
-  "configuration": {
-    "rewrites": [
-      {
-        "header": "X-Forwarded-For",
-        "value": "%{req.Header.Get \"Cf-Connecting-Ip\"}"
-      },
-      {
-        "header": "X-Real-Ip",
-        "value": "%{req.Header.Get \"Cf-Connecting-Ip\"}"
-      }
-    ]
-  }
-}  
+  {
+    "displayName": "rewriteheader",
+    "type": "middleware",
+    "iconPath": "",
+    "import": "github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin",
+    "summary": "Rewrite header is a middleware plugin for Traefik which extracts data via regexp from the target header and creates a new with extracted content.",
+    "author": "mrdrelar",
+    "version": "v0.0.3",
+    "tested_with": "Traefik v2.9+, v3.0+",
+    "stars": 6,
+    "homepage": "https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin",
+    "docs": "https://github.com/maxlerebourg/crowdsec-bouncer-traefik-plugin#readme"
+  },
 
 ]
+
