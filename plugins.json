@@ -76,8 +76,22 @@
   "stars": 4,
   "homepage": "https://github.com/xabinapal/traefik-authentik-forward-plugin",
   "docs": "https://github.com/xabinapal/traefik-authentik-forward-plugin#readme"
-}    
+},
+{
+  "displayName": "Traefik Plugin Cloudflare - Agence",
+  "type": "middleware",
+  "iconPath": "",
+  "import": "github.com/agence-gaya/traefik-plugin-cloudflare",
+  "summary": "Traefik plugin to handle traffic coming from Cloudflare.",
+  "author": "agence-gaya",
+  "version": "v1.2.0",
+  "tested_with": "Traefik v2.x, v3.x",
+  "stars": 4,
+  "homepage": "https://github.com/agence-gaya/traefik-plugin-cloudflare",
+  "docs": "https://github.com/agence-gaya/traefik-plugin-cloudflare#readme"
+}      
 ]
+
 
 
 
