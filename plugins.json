@@ -89,8 +89,22 @@
   "stars": 4,
   "homepage": "https://github.com/agence-gaya/traefik-plugin-cloudflare",
   "docs": "https://github.com/agence-gaya/traefik-plugin-cloudflare#readme"
-}      
+},
+{
+  "displayName": "Block User-Agent",
+  "type": "middleware",
+  "iconPath": "",
+  "import": "github.com/agence-gaya/traefik-plugin-blockuseragent",
+  "summary": "which sends an HTTP 403 Forbidden response when the requested HTTP User-Agent header matches.",
+  "author": "agence-gaya",
+  "version": "v0.1.7",
+  "tested_with": "Traefik v2.x, v3.x",
+  "stars": 15,
+  "homepage": "https://github.com/agence-gaya/traefik-plugin-blockuseragent",
+  "docs": "https://github.com/agence-gaya/traefik-plugin-blockuseragent#readme"
+}    
 ]
+
 
 
 
